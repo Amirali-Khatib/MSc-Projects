@@ -1,5 +1,6 @@
 # **Study Abstract**
 Predicting the probability that a football shot will result in a goal—known as Expected Goals (xG)—is a critical task for performance analysis and decision support in modern football analytics. Given the limitations of the available dataset and the absence of key variables, we devoted significant effort to feature engineering. In this project, we develop a regression-based xG model by combining shot-specific features (e.g., distance, angle, shot type), contextual variables (e.g., game state, player status). We cleaned and normalized the dataset, then split it 80/20 into training and testing sets. We performed hyperparameter tuning for each model using a k-fold cross-validation approach. Model performance is assessed via mean squared error (MSE), and R-squared (R²) on test data. Also, we used a new metric to check xG prediction interval. Experimental results demonstrate that tree-based models have the best performance. The top-performing regressor was Bagging, which achieved to R² of 0.878.
+
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/1d2b06ba-df68-490a-905e-7cbd0b56f89f" />
 
 # **Acknowledgment**
